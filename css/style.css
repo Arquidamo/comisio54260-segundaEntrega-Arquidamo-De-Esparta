@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
+  background-color: black;
+}
+
+container {
+  display: flex;
+  position: relative;
+}
+video-container {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -100;
+  overflow: hidden;
+  top: 0%;
+  left: 0%;
+}
+.video-container video {
+  position: relative;
+  object-fit: scale-down;
+}
+
+#entrar {
+  font-family: "roboto";
+  background-color: #d9b8c4;
+  display: block;
+  color: #241715;
+  text-decoration: none;
+  text-align: center;
+  
+}

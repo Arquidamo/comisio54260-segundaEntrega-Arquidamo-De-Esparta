@@ -1,0 +1,77 @@
+body{
+    background-color: #700548;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+#logo{
+    width: 70px;
+    height: 100px;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 3px darkblue;
+    margin: 0%;
+    padding: 0%;
+color: #700548;
+background-color: burlywood;
+
+
+
+}
+a{
+     text-decoration:none;
+     justify-content: end;
+     color: #700548;
+}
+li{
+    
+    list-style: none;
+ }
+    
+
+
+#piedePagina{
+    
+    position: absolute;
+    bottom: 0;
+    border: solid 3px darkblue;
+     padding: 0%;
+     margin: 0%;
+     background-color: burlywood;
+}
+#boxbody{
+ background-color: burlywood;
+ display: flexbox;
+ flex-direction: column;
+ 
+ justify-content: 
+ z-index: -100;
+}
+#cm1{
+    order: 0;
+
+}
+#cm2{
+    order:1;
+
+}
+#cm3{
+    order: 2;
+}
+#cm4{
+    order:3;
+}
+#cm5{
+    order:4
+}
+#cm6{
+    order:5
+}
